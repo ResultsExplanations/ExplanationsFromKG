@@ -8,4 +8,35 @@ SO7: Exposure: Continent Outcome: ConvertedSalary WHERE: RaceEthnicity = "White 
 SO8: Exposure: Country Outcome: ConvertedSalary WHERE: EducationParents = "Bachelor's degree"
 SO9: Exposure: Country Outcome: ConvertedSalary WHERE: FormalEducation = "Bachelor's degree"
 SO10: Exposure: Country Outcome: ConvertedSalary WHERE: Dependents = "Yes"
+Covid1: Exposure: Country Outcome: New cases
+Covid2: Exposure: Country Outcome: Recovered
+Covid3: Exposure: Country Outcome: Deaths / 100 Recovered
+Covid4: Exposure: Country Outcome: Confirmed last week
+Covid5: Exposure: Country Outcome: New deaths
+Covid6: Exposure: Country Outcome: 1 week change
+Covid7: Exposure: WHO-Region Outcome: 1 week change
+Covid8: Exposure: WHO-Region Outcome: Deaths / 100 Recovered
+Covid9: Exposure: WHO-Region Outcome: New deaths
+Covid10: Exposure: WHO-Region Outcome: New cases
+Flights1: Exposure: ORIGIN_CITY Outcome:DEPARTURE_DELAY WHERE: MONTH = 1
+Flights2: Exposure: DESTINATION_STATE Outcome:ARRIVAL_DELAY
+Flights3: Exposure: ORIGIN_STATE Outcome:DEPARTURE_DELAY WHERE: DAY_OF_WEEK = 4
+Flights4: Exposure: DESTINATION_STATE Outcome:DEPARTURE_DELAY WHERE: DAY_OF_WEEK = 6
+Flights5: Exposure: DESTINATION_CITY Outcome:ARRIVA_DELAY WHERE: MONTH = 6
+Flights6: Exposure: ORIGIN_CITY Outcome:ARRIVAL_DELAY WHERE: MONTH = 8
+Flights7: Exposure: ORIGIN_STATE Outcome:DEPARTURE_DELAY WHERE: MONTH = 2
+Flights8: Exposure: DESTINATION_CITY Outcome:DEPARTURE_DELAY WHERE: DAY_OF_WEEK = 2
+Flights9: Exposure: DESTINATION_STATE Outcome:ARRIVAL_DELAY WHERE: DAY_OF_WEEK = 5
+Flights10: Exposure: DESTINATION_CITY Outcome:ARRIVAL_DELAY WHERE: MONTH = 7
+Forbs1: Exposure: Category Outcome: Pay (USD millions) 
+Forbs2: Exposure: Name Outcome: Pay (USD millions) WHERE: Category = "Actors"
+Forbs3: Exposure: Name Outcome: Pay (USD millions) WHERE: Category = "Comedians"
+Forbs4: Exposure: Category Outcome: Pay (USD millions) WHERE: Year = 2010
+Forbs5: Exposure: Category Outcome: Pay (USD millions) WHERE: Year = 2008
+Forbs6: Exposure: Name Outcome: Pay (USD millions) WHERE: Category = "Musicians"
+Forbs7: Exposure: Name Outcome: Pay (USD millions) WHERE: Category = "Personalities"
+Forbs8: Exposure: Name Outcome: Pay (USD millions) WHERE: Category = "Models"
+Forbs9: Exposure: Name Outcome: Pay (USD millions) WHERE: Category = "Television actrors"
+Forbs10: Exposure: Name Outcome: Pay (USD millions) WHERE: Category = "Authors"
+
 
