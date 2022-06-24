@@ -1,0 +1,11 @@
+SO1: Exposure: Continent Outcome: ConvertedSalary WHERE: Hobby = "Yes" 
+SO2: Exposure: Country Outcome: ConvertedSalary WHERE: Student = "No"
+SO3: Exposure: Country Outcome: ConvertedSalary WHERE: Gender = "Male"
+SO4: Exposure: Country Outcome: ConvertedSalary WHERE: Dependents = "No"
+SO5: Exposure: Country Outcome: ConvertedSalary WHERE: Hobby = "No"
+SO6: Exposure: Continent Outcome: ConvertedSalary WHERE: DevType = "Back-end developer"
+SO7: Exposure: Continent Outcome: ConvertedSalary WHERE: RaceEthnicity = "White or of European descent"
+SO8: Exposure: Country Outcome: ConvertedSalary WHERE: EducationParents = "Bachelor's degree"
+SO9: Exposure: Country Outcome: ConvertedSalary WHERE: FormalEducation = "Bachelor's degree"
+SO10: Exposure: Country Outcome: ConvertedSalary WHERE: Dependents = "Yes"
+
