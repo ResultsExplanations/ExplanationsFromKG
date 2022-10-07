@@ -4,7 +4,7 @@ import time
 from scipy.special import entr
 import psycopg2
 
-
+#The code is taken from the implementation of HypDB https://github.com/CoreyCole/HypDB
 
 
 class Info(object):
