@@ -4,7 +4,7 @@ import numpy as np
 
 EPSILON = 0.01
 
-
+# The full MCIMR algorithm
 def MCIMR(E, x, y, num, verbose = False):
     results = []
     X = [int(ee) for ee in x]
@@ -154,7 +154,7 @@ def getD(x,y,E):
     De = De / len(E)
     return De
 
-
+# responsibility test
 def responsibility(x,y,E,ei):
     x = [int(ee) for ee in x]
     y = [int(ee) for ee in y]
